@@ -1,0 +1,32 @@
+.SideDashboard-container{
+    width: 230px;
+    margin: 0 auto;
+}
+.SideDashboard-box{
+    height: 100vh;
+    background:lightblue;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.SideDashboard-heading{
+    h3{
+        margin: 0;
+    }
+}
+.userAdd-btn{
+    padding: 20px 30px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    h5{
+        color: black;
+        margin: 0;
+    }
+}
+.SideDashboard-functions{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
